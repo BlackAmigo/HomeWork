@@ -4,5 +4,7 @@ public class Main {
         TimeConversion timeConversion = new TimeConversion();
         System.out.println(timeConversion.to24format("07:05:45PM"));
 
+        KangarooShow ks = new KangarooShow();
+        System.out.println(ks.isKangarooCrossing(2,1,1,2));
     }
 }
